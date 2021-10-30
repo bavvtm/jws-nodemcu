@@ -5,46 +5,46 @@
 ```
 /api/restart
 ```
-usage : http://192.168.4.1/api/restart
++ usage : http://192.168.4.1/api/restart
 
 ### Get Location Config ( GET )
 ```
 /api/prayerconfig.json
 ```
-usage : http://192.168.4.1/api/prayerconfig.json
++ usage : http://192.168.4.1/api/prayerconfig.json
 
 ### Get Settings Config ( GET )
 ```
 /api/settingsconfig.json
 ```
-usage : http://192.168.4.1/api/settingsconfig.json
++ usage : http://192.168.4.1/api/settingsconfig.json
 
 ### Get Prayer Fix Config ( GET )
 ```
 /api/prayercompare.json
 ```
-usage : http://192.168.4.1/api/prayercompare.json
++ usage : http://192.168.4.1/api/prayercompare.json
 
 
 ### Get Info Config ( GET )
 ```
 /api/infoconfig.json
 ```
-usage : http://192.168.4.1/api/infoconfig.json
++ usage : http://192.168.4.1/api/infoconfig.json
 
 ### Login ( POST )
 ```
 /api/login
 ```
-usage : http://192.168.4.1/api/login
-params : username, password
++ usage : http://192.168.4.1/api/login
++ params : username, password
 
 ### Set Time ( POST )
 ```
 /api/set_time
 ```
-usage    : http://192.168.4.1/api/set_time
-params  :
++ usage    : http://192.168.4.1/api/set_time
++ params  :
 	- second
 	- minute
 	- hour
@@ -56,8 +56,8 @@ params  :
 ```
 /api/set_prayer_config
 ```
-usage    : http://192.168.4.1/api/set_prayer_config
-params  :
++ usage    : http://192.168.4.1/api/set_prayer_config
++ params  :
 	- latitude (float)
 	- longitude (float)
 	- timezone (int)
@@ -69,8 +69,8 @@ info : if any of the params is not available, it will be set to default
 ```
 /api/set_prayer_comparation
 ```
-usage    : http://192.168.4.1/api/set_prayer_comparation
-params  :
++ usage    : http://192.168.4.1/api/set_prayer_comparation
++ params  :
 	- imsak
 	- shubuh
 	- terbit
@@ -79,7 +79,7 @@ params  :
 	- terbenam
 	- maghrib
 	- isya
-info :
++ info :
 	- if any of the params is not available, it will be set to default
 	- ( - ) to reduce per minute, ( + ) to add a minute
 
@@ -87,8 +87,8 @@ info :
 ```
 /api/set_settings
 ```
-usage    : http://192.168.4.1/api/set_settings
-params  :
++ usage    : http://192.168.4.1/api/set_settings
++ params  :
 	- wifi_name
 	- wifi_password
 	- login_username
@@ -100,8 +100,8 @@ params  :
 ```
 /api/set_info
 ```
-usage    : http://192.168.4.1/api/set_info
-params  :
++ usage    : http://192.168.4.1/api/set_info
++ params  :
 	- show_mosque_name  (0 to false, 1 to true)
 	- show_info_1  (0 to false, 1 to true)
 	- show_info_2  (0 to false, 1 to true)
