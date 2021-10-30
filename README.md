@@ -1,8 +1,6 @@
 ## JWSESP
 > Prayer Time Clock (ID) Build to Nodemcu Microcontroller
 
-![preview_3panel](/preview/3panel.jpg)
-
 ### List Sketch
 | Type		 | Branch       |
 |----------------|--------------|
